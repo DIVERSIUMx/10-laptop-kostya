@@ -5,6 +5,7 @@ from PyQt6 import uic
 import sys
 from random import randint
 
+
 class YellowCircles(QMainWindow):
     def __init__(self):
         self.circle_radius = 0
@@ -27,4 +28,3 @@ if __name__ == "__main__":
     win = YellowCircles()
     win.show()
     sys.exit(app.exec())
-
